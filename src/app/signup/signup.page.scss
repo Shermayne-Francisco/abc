@@ -2,7 +2,7 @@
     background-color: #E6DDC6;
 }
 
-.login {
+.signup {
     font-size: 25px;
     font-weight: bold;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -10,7 +10,6 @@
 
 .icon {
     padding-top: 20px;
-    font-size: 50px;
 }
 
 ion-item {
@@ -23,9 +22,20 @@ ion-item {
     font-weight: normal;
 }
 
-.forgot {
-    padding-top: 20px;
-    font-style: normal;
+.check {
+    font-size: 10px;
+    text-align: left;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 6px;
+    padding-left: 15px;
+}
+
+.box {
+    --size: 16px;
+    --border-radius: 5px;
+    padding-right: 3px;
+    padding-top: 1px;
 }
 
 .btn {

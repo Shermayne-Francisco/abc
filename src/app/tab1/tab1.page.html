@@ -1,17 +1,40 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+    <ion-title>HOME</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <div class="ion-text-center">
+    <ion-card>
+      <ion-card-header>
+        <img src="assets/comp.jpg" alt="icons" height="50%" width="50%">
+      </ion-card-header>
+  
+      <ion-card-content>
+        <ion-text class="survey">Take Surveys - Earn Points - Get Paid</ion-text>
+          <ion-card-subtitle class="sub">How to earn on paid surveys in 3 easy steps?
+            <div class="steps">
+              <ul>
+                <li>Register or Sign up</li>
+                <li>Answer surveys honestly</li>
+                <li>Get paid when you meet the payment threshold</li>
+              </ul>
+            </div>
+          </ion-card-subtitle>
+      </ion-card-content>
+   </ion-card>
+   </div>
+   
+    <div class="btn">
+      <ion-button expand="block" fill="solid" color="primary" (click)="login()">
+        Login
+        <ion-icon slot="end" name="log-in-outline"></ion-icon>
+      </ion-button>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+      <ion-button expand="block" fill="solid" color="secondary" (click)="signup()">
+        Sign Up
+        <ion-icon slot="end" name="create-outline"></ion-icon>
+      </ion-button>
+    </div>
 </ion-content>
